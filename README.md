@@ -28,3 +28,7 @@
 * send request and render result in show action
 * rails server
 * access to https://github.com/jnunemaker/httparty
+
+**_问题：_**
+
+访问过程中出现 “getaddrinfo: nodename nor servname provided, or not known”问题时，使用`ps aux |grep rails` 显示所有包含rails的进程，执行$ kill -9 PID关闭进程，`rails server`重启server.

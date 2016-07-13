@@ -8,7 +8,6 @@ Rails.application.routes.draw do
   get 'stack/show', to: 'stack#show'
   get 'weather/show', to: 'weather#show'
   get 'git/show', to: 'git#show'
-  get 'github/login', to: 'authentication#show'
   get 'userinfo', to: 'userinfo#show'
 
   # Example of regular route:
